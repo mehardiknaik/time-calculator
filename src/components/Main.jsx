@@ -22,9 +22,25 @@ const Main = () => {
     data["minutes"] = Math.round(data["second"] / 60);
     data["hours"] = Math.round(data["minutes"] / 60);
     data["days"] = Math.round(data["hours"] / 24);
+    data["months"] = monthDiff(new Date(fdate), new Date(tdate));
+    data["years"] = calculateAge(new Date(fdate), new Date(tdate));
     setDataObj(data);
     // console.log("submitted", fdate, tdate, data);
   };
+
+  const monthDiff = (dateFrom, dateTo) => {
+    return (
+      dateTo.getMonth() -
+      dateFrom.getMonth() +
+      12 * (dateTo.getFullYear() - dateFrom.getFullYear())
+    );
+  };
+
+  const calculateAge=(dateFrom, dateTo) =>{ 
+    var ageDifMs = dateTo - dateFrom;
+    var ageDate = new Date(ageDifMs);
+    return Math.abs(ageDate.getUTCFullYear() - 1970);
+  }
 
   const Clear = () => {
     setfdate(null);
@@ -84,6 +100,16 @@ const Main = () => {
       {dataObj && (
         <div className={styles.dateContainer}>
           <Box sx={{ width: "100%", maxWidth: 500 }}>
+          {dataObj.years != 0 && (
+              <Typography variant="h6" gutterBottom component="div">
+                Years: {dataObj?.years}
+              </Typography>
+            )}
+            {dataObj.months != 0 && (
+              <Typography variant="h6" gutterBottom component="div">
+                Months: {dataObj?.months}
+              </Typography>
+            )}
             <Typography variant="h6" gutterBottom component="div">
               Days: {dataObj?.days}
             </Typography>
