@@ -1,0 +1,22 @@
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.dateContainer{
+    display: flex;
+    margin: 21px 0 21px 0;
+    gap: 20px;
+}
+.buttonContainer{
+    display: flex;
+    gap: 20px;
+}
+@media (max-width: 425px){
+    .dateContainer{
+        display: flex;
+        flex-direction: column;
+    }
+}
