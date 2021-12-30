@@ -10,7 +10,6 @@ export default function Home() {
         <meta name="description" content="Time Calculate with Years Months Days Hours Minutes Seconds" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
      <Main/>
     </div>
   )

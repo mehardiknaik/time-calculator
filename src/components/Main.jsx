@@ -9,6 +9,9 @@ import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Livetime from "./Livetime";
+import Image from "next/image";
+import favicon from "../images/favicon.png"
+import Footer from "./Footer";
 
 const Main = () => {
   const [fdate, setfdate] = useState(null);
@@ -36,11 +39,11 @@ const Main = () => {
     );
   };
 
-  const calculateAge=(dateFrom, dateTo) =>{ 
+  const calculateAge = (dateFrom, dateTo) => {
     var ageDifMs = dateTo - dateFrom;
     var ageDate = new Date(ageDifMs);
     return Math.abs(ageDate.getUTCFullYear() - 1970);
-  }
+  };
 
   const Clear = () => {
     setfdate(null);
@@ -50,6 +53,13 @@ const Main = () => {
 
   return (
     <div className={styles.mainContainer}>
+      <Image
+        // loader={myLoader}
+        src={favicon}
+        alt=""
+        width={30}
+        height={30}
+      />
       <div className={styles.titleContainer}>
         <h1>Date & Time Calculator</h1>
         <Livetime />
@@ -100,7 +110,7 @@ const Main = () => {
       {dataObj && (
         <div className={styles.dateContainer}>
           <Box sx={{ width: "100%", maxWidth: 500 }}>
-          {dataObj.years != 0 && (
+            {dataObj.years != 0 && (
               <Typography variant="h6" gutterBottom component="div">
                 Years: {dataObj?.years}
               </Typography>
@@ -128,6 +138,7 @@ const Main = () => {
           </Box>
         </div>
       )}
+      <Footer/>
     </div>
   );
 };
