@@ -9,9 +9,8 @@ import Stack from "@mui/material/Stack";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Livetime from "./Livetime";
-import Image from "next/image";
-import favicon from "../images/favicon.png"
 import Footer from "./Footer";
+import CountUp from 'react-countup';
 
 const Main = () => {
   const [fdate, setfdate] = useState(null);
@@ -53,13 +52,6 @@ const Main = () => {
 
   return (
     <div className={styles.mainContainer}>
-      <Image
-        // loader={myLoader}
-        src={favicon}
-        alt=""
-        width={30}
-        height={30}
-      />
       <div className={styles.titleContainer}>
         <h1>Date & Time Calculator</h1>
         <Livetime />
@@ -112,28 +104,28 @@ const Main = () => {
           <Box sx={{ width: "100%", maxWidth: 500 }}>
             {dataObj.years != 0 && (
               <Typography variant="h6" gutterBottom component="div">
-                Years: {dataObj?.years}
+                Years: <CountUp start={0} end={dataObj?.years} duration={1.5}/>
               </Typography>
             )}
             {dataObj.months != 0 && (
               <Typography variant="h6" gutterBottom component="div">
-                Months: {dataObj?.months}
+                Months: <CountUp start={0} end={dataObj?.months} duration={1.5}/>
               </Typography>
             )}
             <Typography variant="h6" gutterBottom component="div">
-              Days: {dataObj?.days}
+              Days: <CountUp start={0} end={dataObj?.days} duration={1.5}/>
             </Typography>
             <Typography variant="h6" gutterBottom component="div">
-              Hours: {dataObj?.hours}
+              Hours: <CountUp start={0} end={dataObj?.hours} duration={1.5}/>
             </Typography>
             <Typography variant="h6" gutterBottom component="div">
-              Minutes: {dataObj?.minutes}
+              Minutes: <CountUp start={0} end={dataObj?.minutes} duration={1.5}/>
             </Typography>
             <Typography variant="h6" gutterBottom component="div">
-              Seconds: {dataObj?.second}
+              Seconds: <CountUp start={0} end={dataObj?.second} duration={1.5}/>
             </Typography>
             <Typography variant="h6" gutterBottom component="div">
-              Milliseconds: {dataObj?.millisecond}
+              Milliseconds: <CountUp start={0} end={dataObj?.millisecond} duration={1.5}/>
             </Typography>
           </Box>
         </div>
