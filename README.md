@@ -6,6 +6,7 @@
 ![image](https://user-images.githubusercontent.com/96820742/159150162-a22a640c-7059-4c9f-92eb-f585f2f56b73.png)
 ![image](https://user-images.githubusercontent.com/96820742/159150185-650487b4-bde4-44fe-afbb-540fef5643b2.png)
 
+<img src="https://user-images.githubusercontent.com/96820742/159150162-a22a640c-7059-4c9f-92eb-f585f2f56b73.png" width="60%"/>
 
 ## Features
 
