@@ -4,8 +4,10 @@
 
 [Time Calculator](https://mehardiknaik.github.io/time-calculator/)
 <div align="center">
-<img src="https://user-images.githubusercontent.com/96820742/159150162-a22a640c-7059-4c9f-92eb-f585f2f56b73.png" width="60%"/><img src="https://user-images.githubusercontent.com/96820742/159150273-f1453fcc-96f3-40f5-9600-740958959256.png" width="40%"/>
- </div>
+![image](https://user-images.githubusercontent.com/96820742/159150332-3dd0ca5d-b44d-4f17-8aca-d799f7b1abc7.png)
+![image](https://user-images.githubusercontent.com/96820742/159150384-d1e7b40f-b590-457b-a365-7e881093dfcf.png)
+
+</div>
 
 ## Features
 
