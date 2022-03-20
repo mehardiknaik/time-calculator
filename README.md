@@ -1,4 +1,4 @@
-![logo](/public/favicon.ico)
+[logo](/public/favicon.ico)
 
 # Time Calculator
 
