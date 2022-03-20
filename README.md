@@ -38,7 +38,8 @@
 - VSCode
 - And these useful of JavaScript libraries [package.json](package.json)
 ___
-***Hardik Naik***
+
+### _Hardik Naik_
 
 
 🐥 [Twitter](https://twitter.com/hardiknaik7444) | 💼 [LinkedIn](http://linkedin.com/in/hardik-naik) | 📧 [Email](mailto:hardiknaik7444@gmail.com?subject=Hi)
