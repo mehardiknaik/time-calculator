@@ -3,6 +3,8 @@
 # ![logo](/public/favicon.ico) Time Calculator
 
 [Time Calculator](https://mehardiknaik.github.io/time-calculator/)
+![image](https://user-images.githubusercontent.com/96820742/159150162-a22a640c-7059-4c9f-92eb-f585f2f56b73.png)
+
 
 ## Features
 
