@@ -22,11 +22,10 @@
 ## Features
 
 - JavaScript
-- PWA (desktop & mobile)
-- SEO
-- Live time
+- SEO Friendly
+- Current Time
 - Nice project structure
-- Tablet & mobile friendly
+- Desktop, Tablet & mobile friendly
 
 ## Function
 
@@ -39,8 +38,8 @@
 - VSCode
 - And these useful of JavaScript libraries [package.json](package.json)
 
-**Hardik Naik**
+***Hardik Naik***
 
-- [Profile](https://github.com/mehardiknaik "Hardik Naik")
-- [Email](mailto:hardiknaik7444@gmail.com?subject=Hi% "Hi!")
+
+🐥 [Twitter](https://twitter.com/hardiknaik7444) | 💼 [LinkedIn](http://linkedin.com/in/hardik-naik) | 📧 [Email](mailto:hardiknaik7444@gmail.com?subject=Hi% "Hi!")
 <p align="right">(<a href="#top">back to top</a>)</p>
