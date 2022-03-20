@@ -7,6 +7,7 @@
 - JavaScript
 - PWA (desktop & mobile)
 - SEO
+- Live time
 - Nice project structure
 - Tablet & mobile friendly
 
