@@ -1,9 +1,8 @@
-
+<div id="top"></div>
 
 # ![logo](/public/favicon.ico) Time Calculator
 
 [Time Calculator](https://mehardiknaik.github.io/time-calculator/)
-
 
 <details>
   <summary>ScreenShots</summary>
@@ -16,6 +15,7 @@
 ### `Mobile`
 
 ![image](https://user-images.githubusercontent.com/96820742/159150332-3dd0ca5d-b44d-4f17-8aca-d799f7b1abc7.png)
+
   </ol>
 </details>
 
@@ -38,3 +38,9 @@
 - JavaScript
 - VSCode
 - And these useful of JavaScript libraries [package.json](package.json)
+
+**Hardik Naik**
+
+- [Profile](https://github.com/mehardiknaik "Hardik Naik")
+- [Email](mailto:hardiknaik7444@gmail.com?subject=Hi% "Hi!")
+<p align="right">(<a href="#top">back to top</a>)</p>
