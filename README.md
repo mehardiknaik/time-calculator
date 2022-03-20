@@ -1,6 +1,6 @@
-![logo](/public/favicon.ico)
 
-# Time Calculator
+
+# ![logo](/public/favicon.ico) Time Calculator
 
 [Time Calculator](https://mehardiknaik.github.io/time-calculator/)
 
