@@ -17,7 +17,7 @@
 
 ## Built with
 
-- Next js
+- [Next js](https://nextjs.org/)
 - JavaScript
 - VSCode
 - And these useful of JavaScript libraries [package.json](package.json)
