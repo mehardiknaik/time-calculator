@@ -1,3 +1,3 @@
-# time-calculator
- the project will star on port number 3000
-With url-> localhost:3000/time-calculator
+# Time Calculator
+
+[Time Calculator](https://mehardiknaik.github.io/time-calculator/)
