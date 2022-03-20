@@ -41,5 +41,5 @@
 ***Hardik Naik***
 
 
-🐥 [Twitter](https://twitter.com/hardiknaik7444) | 💼 [LinkedIn](http://linkedin.com/in/hardik-naik) | 📧 [Email](mailto:hardiknaik7444@gmail.com?subject=Hi% "Hi!")
+🐥 [Twitter](https://twitter.com/hardiknaik7444) | 💼 [LinkedIn](http://linkedin.com/in/hardik-naik) | 📧 [Email](mailto:hardiknaik7444@gmail.com?subject=Hi%20"Hi!")
 <p align="right">(<a href="#top">back to top</a>)</p>
