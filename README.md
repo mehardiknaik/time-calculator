@@ -1,3 +1,5 @@
+[logo](/public/favicon.iov)
+
 # Time Calculator
 
 [Time Calculator](https://mehardiknaik.github.io/time-calculator/)
