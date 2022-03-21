@@ -39,8 +39,13 @@
 - And these useful of JavaScript libraries [package.json](package.json)
 ___
 
+<<<<<<< Updated upstream
 ### _Hardik Naik_
 
+=======
+**_Hardik Naik_**
+>>>>>>> Stashed changes
 
 🐥 [Twitter](https://twitter.com/hardiknaik7444) | 💼 [LinkedIn](http://linkedin.com/in/hardik-naik) | 📧 [Email](mailto:hardiknaik7444@gmail.com?subject=Hi)
+
 <p align="right">(<a href="#top">back to top</a>)</p>
